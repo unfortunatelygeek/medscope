@@ -1,0 +1,119 @@
+# ==========================================
+# Python / FastAPI / Poetry
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Poetry & virtual environments
+.venv/
+venv/
+.env/
+poetry.lock
+
+# Pydantic and FastAPI cache
+.pytest_cache/
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Keys / Tokens / Credentials
+*.key
+*.pem
+*.crt
+*.cert
+*.secrets
+secret.json
+credentials.json
+
+# ==========================================
+# Logs & Outputs
+# ==========================================
+logs/
+*.log
+*.out
+*.err
+
+# ==========================================
+# Database / Storage
+# ==========================================
+*.db
+*.sqlite3
+postgres_data/
+*.sql
+
+# ==========================================
+# Machine Learning / Models / Data
+# ==========================================
+# Model weights and intermediate artifacts
+*.pth
+*.pt
+*.h5
+*.onnx
+*.ckpt
+*.joblib
+
+# Training or data directories (if any)
+data/
+datasets/
+notebooks/
+experiments/
+runs/
+
+# ==========================================
+# Docker
+# ==========================================
+# Docker build cache
+.docker/
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# Local volumes
+volumes/
+tmp/
+*.pid
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ==========================================
+# OS / Miscellaneous
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Reports / PDFs / Generated Files
+# ==========================================
+reports/
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+# ==========================================
+# Alembic (migrations)
+# ==========================================
+migrations/versions/__pycache__/
+migrations/*.pyc
